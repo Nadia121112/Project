@@ -77,29 +77,12 @@
 
 @endforeach
 
-<a href="{{action('DaftarsubjeksController@create', $id)}}" class="btn btn-outline-success my-2 my-sm-0" type="button" role ="button">PRINT</a>
-
-{{-- @foreach($daftarsubjeks as $b)
-@foreach($users as $a)
-
-      @if($a->id == $b->user_id)
-  <tr>
-       <td>{{$a->userid}}</td>
-       <td>{{ $a->name }}</td>
-
-
-    @endif
-
-
-    </tr>
-  @endforeach
-@endforeach --}}
-
   <?php $i++ ?>
 
-
-
 </table>
+<span class="pull-right">
+<a class="btn btn-primary" href="{{action('DaftarsubjeksController@create', $id)}} ">PRINT</a></span>
+
 </div>
 </div>
 

@@ -62,7 +62,6 @@
                         <li><a href="{{ url('/senaraisubjek') }}"><span class="glyphicon glyphicon-check"></span>Class</a></li>
                         <li><a href="{{ url('/daftarsubjek') }}"><span class="glyphicon glyphicon-check"></span>Jadual</a></li>
                         <li><a href="{{ url('/listsubjek') }}"><span class="glyphicon glyphicon-check"></span>Senarai</a></li>
-                        <li><a href="{{ url('/updateinfo') }}"><span class="glyphicon glyphicon-check"></span>Profile</a></li>
                         <li><a href="{{ url('/registerstudent') }}"><span class="glyphicon glyphicon-check"></span>Account</a></li>
 
 

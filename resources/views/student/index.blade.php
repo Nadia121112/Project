@@ -1,4 +1,4 @@
-@include('modal.destroy-modal')
+@include('Modal.destroy-modal')
 @extends('layouts.app')
 @section('content')
 
@@ -14,9 +14,7 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>#</th>
-                                <th width="20%">Matric Number</th>
-                                <th width="30%">Student Name </th>
+                              
                                 <th width="30%">Programme</th>
                                 <th width="30%">Year</th>
                                 <th width="20%">Phone Number</th>
@@ -28,9 +26,6 @@
                                                     <?php $i = 0 ?>
                                                     @forelse($students as $student)
                                                         <tr>
-
-                                                            <td>{{ $student->nomatrik }}</td>
-                                                            <td>{{ $student->namapelajar }}</td>
                                                             <td>{{ $student->program }}</td>
                                                             <td>{{ $student->tahun }}</td>
                                                             <td>{{ $student->nombortelefon }}</td>

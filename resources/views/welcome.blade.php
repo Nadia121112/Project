@@ -29,15 +29,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">e-<span>Hadir</span></a>
+
+
+        <img src="../img/logo_ukm.jpg" width="50%"/a>
+
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="{{ url('/login') }}">Login</a></li>
           <li><a href="{{ url('/register') }}">Register</a></li>
-          <li><a href="{{ url('/registersubj') }}">Subjects</a></li>
+          {{-- <li><a href="{{ url('/registersubj') }}">Subjects</a></li>
           <li><a href="{{ url('/attendance') }}">Attendance</a></li>
-          <li><a href="{{ url('/registerstudent') }}">Student</a></li>
+          <li><a href="{{ url('/registerstudent') }}">Student</a></li> --}}
 
         </ul>
         </div>
@@ -92,87 +95,22 @@
     </div>
     <!--/ Modal box-->
     <!--Banner-->
+
     <div class="banner">
-      <div class="bg-color">
         <div class="container">
           <div class="row">
-            <div class="banner-text text-center">
-              <div class="text-border">
-                <h2 class="text-dec">Trust & Quality</h2>
-              </div>
-              <div class="intro-para text-center quote">
-                <p class="big-text"> Inspiring Futures, Nurturing Possibilities</p>
-
-
-              </div>
-
-            </div>
+            <br>
+            <br>
           </div>
         </div>
-      </div>
     </div>
-    <!--/ Banner-->
-    <!--Feature-->
-    <section id ="feature" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="header-section text-center">
-            <h2>Features</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
-            <hr class="bottom-line">
-          </div>
-          <div class="feature-info">
-            <div class="fea">
-              <div class="col-md-4">
-                <div class="heading pull-right">
-                  <h4>Latest Technologies</h4>
-                  <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <i class="fa fa-css3"></i>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-4">
-                <div class="heading pull-right">
-                  <h4>Toons Background</h4>
-                  <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <i class="fa fa-drupal"></i>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-4">
-                <div class="heading pull-right">
-                  <h4>Award Winning Design</h4>
-                  <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <i class="fa fa-trophy"></i>
-                </div>
-              </div>
-            </div>
-        </div>
-        </div>
-      </div>
 
-    <!--/ Organisations-->
-    <!--Cta-->
-
-    <!--/ Cta-->
-    <!--work-shop-->
-
-    <!--/ work-shop-->
-    <!--Faculity member-->
     <section id="faculity-member" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="header-section text-center">
             <h2>Meet Our Faculty Member</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+            <p>Faculty of Informtion Science & Technology<br> Guardian of Nation <br>Inspiring Futures, Nurturing Possibilities</p>
             <hr class="bottom-line">
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
@@ -180,13 +118,12 @@
               <div class="pm-staff-profile-image-wrapper text-center">
                 <div class="pm-staff-profile-image">
                   <img src="img/dekan.jpg" alt="" class="img-thumbnail img-circle" />
+                  <br>
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
-                <p class="pm-staff-profile-name">Bryan Johnson</p>
-                <p class="pm-staff-profile-title">Lead Software Engineer</p>
-
-                <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+                <p class="pm-staff-profile-name">Prof Dr. Abdullah Mohd Zain</p>
+                <p class="pm-staff-profile-title">Dean</p>
               </div>
             </div>
           </div>
@@ -198,10 +135,8 @@
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
-                <p class="pm-staff-profile-name">Bryan Johnson</p>
-                <p class="pm-staff-profile-title">Lead Software Engineer</p>
-
-                <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+                <p class="pm-staff-profile-name">Assoc. Prof Dr Rozilawati Razali</p>
+                <p class="pm-staff-profile-title">Deputy Dean Undergraduate</p>
               </div>
             </div>
           </div>
@@ -209,34 +144,24 @@
             <div class="pm-staff-profile-container" >
               <div class="pm-staff-profile-image-wrapper text-center">
                 <div class="pm-staff-profile-image">
-                    <img src="img/dekan.jpg" alt="" class="img-thumbnail img-circle" />
+                    <img src="img/azmi.jpg" alt="" class="img-thumbnail img-circle" />
                 </div>
               </div>
               <div class="pm-staff-profile-details text-center">
-                <p class="pm-staff-profile-name">Bryan Johnson</p>
-                <p class="pm-staff-profile-title">Lead Software Engineer</p>
-
-                <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+                <p class="pm-staff-profile-name">Mr Azmi Nasir</p>
+                <p class="pm-staff-profile-title">HEAD of ICT Unit</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--/ Faculity member-->
-    <!--Testimonial-->
-    <!--/ Testimonial-->
-    <!--Courses-->
-    <!--/ Courses-->
-    <!--Pricing-->
-    <!--/ Pricing-->
-     <!--Contact-->
     <section id ="contact" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="header-section text-center">
             <h2>Contact Us</h2>
-            <br><br>Faculty of Information Science & Technology, <br>Universiti Kebangsaan Malaysia, 43600 UKM, Bangi Selangor, MALAYSIA<br><br>
+          <br>Faculty of Information Science & Technology, <br>Universiti Kebangsaan Malaysia, 43600 UKM, Bangi Selangor, MALAYSIA<br><br>
  Admission Requirement : Undergraduate: +6 03 - 8921 6789/6183/6787 <br>
  Admission Requirement : Postgraduate: +6 03 - 8921 6812/6184 <br>
  Administration : +6 03 - 8921 6141 <br>
@@ -250,47 +175,14 @@
         </div>
       </div>
     </section>
-    <!--/ Contact--> --}}
+    <!--/ Contact-->
     <!--Footer-->
     <footer id="footer" class="footer">
       <div class="container text-center">
 
-      <h3>Start Your Free Trial Now!</h3>
-
-      <form class="mc-trial row">
-        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-          <div class=" controls">
-            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
-          </div>
-        </div><!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
-          <div class=" controls">
-            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
-          </div>
-        </div><!-- End email input -->
-        <div class="col-md-2 col-sm-4">
-          <p>
-            <button name="submit" type="submit" class="btn btn-block btn-submit">
-            Submit <i class="fa fa-arrow-right"></i></button>
-          </p>
-        </div>
-      </form><!-- End newsletter-form -->
-      <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
-      </ul>
-        ©2016 Mentor Theme. All rights reserved
+        ©2017 e-Hadir. Faculty of Information Science & Technology
         <div class="credits">
-            <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
-            -->
-            Designed by <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a>
+
         </div>
       </div>
     </footer>

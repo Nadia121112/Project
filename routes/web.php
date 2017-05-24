@@ -12,7 +12,7 @@ Route::group(['middleware' => ['auth']], function(){
     Route::patch('/profile/{profile}', 'PenggunasController@update');
 
      //subject
-     Route::group(['middleware' =>  ['auth', 'admin']], function(){
+     Route::group(['middleware' =>  ['auth', 'pensyarah']], function(){
 
 
     Route::get('/registersubj', 'SubjectsController@index');
@@ -41,9 +41,6 @@ Route::group(['middleware' => ['auth']], function(){
    Route::get('/pdf/resit/{id}', 'DaftarsubjeksController@showReceiptPDF');
 
 
-  // });
-  //
-  // Route::group(['middleware' =>  ['auth', 'pelajar']], function(){
 
   // student register subject
   Route::get('/senaraisubjek', 'SubjectsController@senaraisubjek');
@@ -56,6 +53,9 @@ Route::group(['middleware' => ['auth']], function(){
 
 
 });
+Route::get('/registerstudent', 'StudentsController@index');
+    Route::get('/registerstudent/create', 'StudentsController@create');
+    Route::post('/registerstudent', 'StudentsController@store');
 
 });
 

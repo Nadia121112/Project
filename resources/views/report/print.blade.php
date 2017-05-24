@@ -88,38 +88,23 @@
   <tbody pull-{right}>
 
     @foreach ($attendances as $attendance)
-        @if($attendance->status == "Absence")
         <tr>
-
           <td>{{$attendance->nomatrik}}</td>
           <td>{{$attendance->user->name}}</td>
           <td>{{$attendance->status}}</td>
         </tr>
+        @endforeach
 
-        {{-- @else
-          <tr>
-
-            <td>{{$attendance->nomatrik}}</td>
-            <td>{{$attendance->user->name}}</td>
-            <td>{{$attendance->status}}</td>
-          </tr> --}}
-
-      @endif
-
-    @endforeach
-
-
-            <td>
-            <th>No of Present Student: {{$status}}<th>
-            <br>
-            <th>No of Absent Student: {{$status2}}<th>
-            </td>
-    {{-- <tr>
-        <td width="40%" style="text-align: right; font-size: 18px;padding: 10px;">Tarikh Pembayaran : </td>
-        {{-- <td width="60%" style="text-align: right; font-size: 18px; font-weight: bold; padding: 10px;">{{ $tempahan->pembayaran->created_at->format('d/m/Y g:ia') }}</td> --}}
-    {{--</tr> --}}
     </tbody>
 </table>
-<table class="table table-bordered" border="1" style="border-collapse: collapse; width: 80%; border-color: #adadad;">
+<table>
+<tr>
+  <td>
+    No of Present Student: {{$status}}</td>
+
+    <td>No of Absent Student: {{$status2}}<th>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
